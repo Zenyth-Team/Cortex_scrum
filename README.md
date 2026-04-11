@@ -27,5 +27,21 @@ Link: https://carry-pack-20330348.figma.site/
 # Stack:
 
 ## Decisión Arquitectonica: 
+Se ha optado por una arquitectura monolítica organizada en tres capas lógicas. Esta decisión permite centralizar la lógica de negocio y facilitar el despliegue de la página web sin la complejidad de microservicios.
+
+**Capa de Presentación (Frontend):** Diseñada en HTML5, CSS3 y JavaScript, asegurando una interfaz responsiva y dinámica que refleje fielmente el diseño de Figma. Utiliza JavaScript para el escaneo de códigos SKU y la interactividad de las gráficas.
+
+**Capa de Lógica de Negocio (Backend):** Implementada en Python utilizando el micro-framework Flask. Esta capa gestiona el control de stock crítico, la verificación de fechas de vencimiento y el cálculo automático de ingresos financieros.
+
+**Capa de Datos (Persistencia):** Basada en SQLite. Se elige esta base de datos relacional por su capacidad de "Autoguardado local" mediante un archivo persistente, eliminando la necesidad de configurar servidores de base de datos externos y garantizando la trazabilidad de los productos.
 
 ## Atributos:
+**Escalabilidad:** Capacidad de manejar un aumento en la carga (usuarios, datos) sin degradar rendimiento.
+
+**Disponibilidad:** El tiempo que el sistema está operativo y accesible.
+
+**Mantenibilidad:** Corregir errores o agregar nuevas funcionalidades.
+
+**Seguridad:** Protección de datos y resistir ataques malintencionados.
+
+**Rendimiento:** Tiempos de respuesta y uso de recursos bajo condiciones específicas.
