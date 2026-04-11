@@ -10,8 +10,13 @@ Nuestro proyecto se enfoca en la gestión de inventario de una empresa ficticia.
 
 **Dev´s:** Diego Marengo, Ignacio Jorquera, Matias Horvath. 
 ## Características de Enfoque
-* **Trazabilidad de Productos:** Seguimiento detallado de cada ítem en bodega.
-* **Niveles de Stock Mínimo:** Control automatizado para evitar falta de productos.
-* **Alertas de Inventario:** Notificaciones automáticas ante niveles críticos.
-* **Control de Vencimientos:** Monitoreo preventivo de fechas de caducidad.
-* **Módulo Contable:** Registro automático de transacciones y ventas.
+
+* **Gestión de productos:** Registro con códigos SKU únicos y validación de precios o cantidades no negativas.
+* **Escaneo de precios:** Sistema de consulta mediante códigos SKU para obtener información rápida del producto.
+* **Reportes y gráficas:** Visualización de productos más vendidos y gráficas de reposición de stock filtradas por fecha.
+* **Ubicación de productos:** Identificación rápida de la sección exacta de la tienda donde se encuentra cada artículo.
+* **Resumen financiero:** Cálculo automático de ingresos mensuales y del valor total del capital invertido en bodega.
+* **Autoguardado local:** Respaldo automático de movimientos e inventario para evitar pérdida de datos al cerrar la aplicación.
+* **Generador de órdenes de compra:** Creación automática de documentos PDF con datos prellenados del proveedor ante falta de stock.
+* **Venta a granel:** Soporte para venta de productos por peso o unidades fraccionadas con actualización de inventario.
+* **Alertas de stock crítico:** Notificaciones automáticas cuando un producto alcanza el nivel mínimo de existencias definido.
