@@ -27,13 +27,13 @@ Link: https://carry-pack-20330348.figma.site/
 # Stack:
 
 ## Decisión Arquitectonica: 
-Se ha optado por una arquitectura monolítica organizada en tres capas lógicas. Esta decisión permite centralizar la lógica de negocio y facilitar el despliegue de la página web sin la complejidad de microservicios.
+Se ha optado por una arquitectura monolítica organizada en tres capas lógicas. Esta decisión permite centralizar la lógica de negocio y facilitar el despliegue de la página web:
 
-**Capa de Presentación (Frontend):** Diseñada en HTML5, CSS3 y JavaScript, asegurando una interfaz responsiva y dinámica que refleje fielmente el diseño de Figma. Utiliza JavaScript para el escaneo de códigos SKU y la interactividad de las gráficas.
+**Capa de Presentación (Frontend):** Se diseñara en HTML5, CSS3 y JavaScript, asegurando una interfaz responsiva y dinámica que refleje fielmente el diseño de Figma. Utilizando JavaScript para el escaneo de códigos SKU y la interactividad de las gráficas.
 
-**Capa de Lógica de Negocio (Backend):** Implementada en Python utilizando el micro-framework Flask. Esta capa gestiona el control de stock crítico, la verificación de fechas de vencimiento y el cálculo automático de ingresos financieros.
+**Capa de Lógica de Negocio (Backend):** Implementada en Python utilizando el micro-framework Flask. Gestiona el control de stock crítico, la verificación de fechas de vencimiento y el cálculo automático de ingresos financieros.
 
-**Capa de Datos (Persistencia):** Basada en SQLite. Se elige esta base de datos relacional por su capacidad de "Autoguardado local" mediante un archivo persistente, eliminando la necesidad de configurar servidores de base de datos externos y garantizando la trazabilidad de los productos.
+**Capa de Datos (Persistencia):** Sera basada en SQLite. Se elige esta base de datos relacional por su capacidad de "Autoguardado local" mediante un archivo persistente, eliminando la necesidad de configurar servidores de base de datos externos.
 
 ## Atributos:
 **Escalabilidad:** Capacidad de manejar un aumento en la carga (usuarios, datos) sin degradar rendimiento.
