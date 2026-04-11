@@ -26,6 +26,6 @@ Link: https://carry-pack-20330348.figma.site/
 
 # Stack:
 
-## Desición Arquitectonica: 
+## Decisión Arquitectonica: 
 
 ## Atributos:
