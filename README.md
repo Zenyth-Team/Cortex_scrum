@@ -23,3 +23,9 @@ Nuestro proyecto se enfoca en la gestión de inventario de una empresa ficticia 
 
 ## Figma
 Link: 
+
+# Stack:
+
+## Requerimientos Funcionales:
+
+## Requert
