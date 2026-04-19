@@ -37,6 +37,17 @@ Todas las historias están registradas como GitHub Issues.
 | US-09 | Alertas automáticas de stock crítico | https://github.com/Zenyth-Team/Historias-de-usuario/issues/9 |
 | US-10 | Ajuste manual de inventario por mermas o daños | https://github.com/Zenyth-Team/Historias-de-usuario/issues/10 |
 
+## Entidades del Dominio
+
+El sistema gestiona la persistencia de datos mediante las siguientes entidades principales y sus atributos:
+
+* **Producto:** SKU (Identificador único), nombre, descripción, precio, cantidad_stock, stock_minimo, seccion_id.
+* **Sección:** ID, nombre_seccion (pasillo/estante), descripción de ubicación.
+* **Venta:** ID, fecha_hora, total_venta, metodo_pago.
+* **DetalleVenta:** venta_id, producto_id, cantidad_vendida, subtotal.
+* **Movimiento/Merma:** ID, producto_id, cantidad, tipo_movimiento (Entrada/Salida/Merma), motivo, fecha.
+* **Proveedor:** ID, nombre_empresa, contacto, categoría_productos.
+
 ## Figma
 Link: https://carry-pack-20330348.figma.site/
 
