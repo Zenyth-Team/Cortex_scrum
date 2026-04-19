@@ -2,13 +2,15 @@
 ## Problemática: 
 Nuestro proyecto se enfoca en la gestión de inventario de una empresa ficticia Sterling & Co. El objetivo principal es implementar una base de datos que permita la trazabilidad de productos, el control de stock mediante niveles mínimos, la verificación de fechas de vencimiento, la generación de alertas automáticas cuando se alcancen niveles críticos de inventario y el registro contable de las ventas.
 
-## Disposición general del equipo de trabajo:
+## Responsabilidades del Equipo
 
-**Scrum Master:** David Daniel Nuñéz Ruiz.
-
-**Product Owner:** Sebastián Fredy Gonzalez Pereira.
-
-**Dev´s:** Diego Marengo, Ignacio Jorquera, Matias Horvath. 
+| Integrante | Rol | Ítems de la rúbrica a cargo |
+|---|---|---|
+| David Daniel Nuñéz Ruiz | Scrum Master | Historias de Usuario (Completitud y Correctitud) y Gestión de Issues. |
+| Sebastián Fredy Gonzalez Pereira | Product Owner | Requisitos Extrafuncionales (Catálogo y Priorización) y README. |
+| Diego Marengo | Developer | Diseño Arquitectónico (Estilo y Justificación) en Arquitectura.md. |
+| Ignacio Jorquera | Developer | Descomposición Modular y Diagrama de Arquitectura. |
+| Matias Horvath | Developer | Entidades del Dominio (Completitud) y Mockups (Consistencia). |
 ## Características de Enfoque/Funcionales
 
 * **Gestión de productos:** Registro con códigos SKU únicos y validación de precios o cantidades no negativas.
