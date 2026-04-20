@@ -85,7 +85,6 @@ A continuación se presentan los prototipos de baja fidelidad del sistema, vincu
 | [Ver vista de Venta a Granel](./us08.png) | US-08 |
 | [Ver vista de Alertas de Stock](./us09.png) | US-09 |
 | [Ver vista de Ajuste por Mermas](./us10.png) | US-10 |
-# Stack:
 
 ## Decisión Arquitectonica: 
 Se ha optado por una arquitectura monolítica organizada en tres capas lógicas. Esta decisión permite centralizar la lógica de negocio y facilitar el despliegue de la página web:
