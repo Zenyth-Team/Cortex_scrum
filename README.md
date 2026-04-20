@@ -70,9 +70,3 @@ Ver detalle de arquitectura y decisiones de diseño en: [arquitectura.md](./arqu
 | Diego Marengo | Developer | Diseño Arquitectónico (Estilo y Justificación) en Arquitectura.md. |
 | Ignacio Jorquera | Developer | Descomposición Modular y Diagrama de Arquitectura. |
 | Matias Horvath | Developer | Entidades del Dominio (Completitud) y Mockups (Consistencia). |
-
-**Mantenibilidad:** Corregir errores o agregar nuevas funcionalidades.
-
-**Seguridad:** Protección de datos y resistir ataques malintencionados.
-
-**Rendimiento:** Tiempos de respuesta y uso de recursos bajo condiciones específicas.
