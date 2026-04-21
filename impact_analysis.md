@@ -124,7 +124,7 @@ La solución propuesta (Cliente-Servidor + Event-Driven) es la más coherente pa
 **Trade-offs asumidos:**
 * **Consistencia vs. Disponibilidad:** Privilegiamos que el cajero pueda vender siempre, asumiendo el trade-off de que el sistema no será 100% síncrono (Consistencia Eventual). Esto generará posibles descuadres de stock físicos que deberán resolverse administrativamente mediante el Gestor de Sincronización.
 * **Complejidad del Desarrollo:** El front end deja de ser una pagina web simple y pasa a ser una aplicación más compleja, aumentando los tiempos de desarrollo y las pruebas necesarias para manejar estados de desconexión.
-Qué se gana y qué se sacrifica con las decisiones tomadas.] 
+
 ## 11. Estilo Arquitectónico
 
 **Estilo adoptado:** Arquitectura de Dos Capas (Client-Server / Fat Client)
