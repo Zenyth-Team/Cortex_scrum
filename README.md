@@ -30,6 +30,8 @@ Todas las historias están registradas como GitHub Issues.
 | US-09 | Alertas automáticas de stock crítico | [Issue #9](https://github.com/Zenyth-Team/Historias-de-usuario/issues/9) |
 | US-10 | Ajuste manual de inventario por mermas o daños | [Issue #10](https://github.com/Zenyth-Team/Historias-de-usuario/issues/10) |
 | US-11 | Venta en Modo Offline | [Issue #11](https://github.com/Zenyth-Team/Historias-de-usuario/issues/17) |
+| US-12 | Sincronización de Datos | [Issue #12](https://github.com/Zenyth-Team/Historias-de-usuario/issues/18) |
+| US-13 | Resolución de Conflictos de Stock | [Issue #13](https://github.com/Zenyth-Team/Historias-de-usuario/issues/19) |
 
 
 
