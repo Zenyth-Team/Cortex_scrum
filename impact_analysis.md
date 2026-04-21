@@ -138,7 +138,7 @@ Qué se gana y qué se sacrifica con las decisiones tomadas.]
 
 **Explicación textual:** Se ha migrado a una **Arquitectura de Dos Capas** para optimizar la distribución de carga en la ferretería. En este esquema, el **Cliente (Capa 1)** es una aplicación robusta que contiene la interfaz y la lógica de venta, permitiendo operar a alta velocidad y de forma offline mediante una base de datos local. El **Servidor (Capa 2)** actúa como el nodo central de datos y el motor de procesamiento para informes masivos. Esta separación física asegura que el cajero nunca perciba lentitud, ya que los procesos de cierre mensual de millones de registros ocurren en el hardware del servidor, mientras que la terminal de venta se mantiene reactiva y ligera para el escaneo de productos.
 
-# 12. Diseño Arquitectónico
+## 12. Diseño Arquitectónico
 
 **Descripción de los Niveles (Tiers) del sistema:**
 
