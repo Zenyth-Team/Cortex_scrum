@@ -66,7 +66,7 @@ Ver detalle de arquitectura y decisiones de diseño en: [arquitectura.md](./arqu
 | Integrante | Rol | Ítems de la rúbrica a cargo |
 |---|---|---|
 | David Daniel Nuñéz Ruiz | Scrum Master | Historias de Usuario (Completitud y Correctitud) y Gestión de Issues. |
-| Sebastián Fredy Gonzalez Pereira | Product Owner | Requisitos Extrafuncionales (Catálogo y Priorización) y README. |
+| Ignacio Jorquera | Product Owner | Requisitos Extrafuncionales (Catálogo y Priorización) y README. |
 | Diego Marengo | Developer | Diseño Arquitectónico (Estilo y Justificación) en Arquitectura.md. |
-| Ignacio Jorquera | Developer | Descomposición Modular y Diagrama de Arquitectura. |
+| Sebastián Fredy Gonzalez Pereira | Developer | Descomposición Modular y Diagrama de Arquitectura. |
 | Matias Horvath | Developer | Entidades del Dominio (Completitud) y Mockups (Consistencia). |
