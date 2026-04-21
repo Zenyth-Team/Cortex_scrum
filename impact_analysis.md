@@ -8,8 +8,6 @@
 
  
 
-## 2. Nuevas historias de usuario 
-
  
 
 ## 2. Nuevas historias de usuario
