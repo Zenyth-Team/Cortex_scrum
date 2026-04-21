@@ -109,11 +109,15 @@ Se necesita una redefinición de los módulos y agregar nuevos para soportar la 
 
 ## 9. Trazabilidad actualizada
 
+## 9. Trazabilidad actualizada
+
 | Historia | REF relacionado | Módulo | Mockup |
-|----------|-----------------|--------|--------|
-| US-0X (Venta Offline) | REF-02, REF-03 | Ventas (Smart Client) | POS (Indicador Red) |
-| US-0Y (Sync Pospuesta) | REF-11 (Nuevo) | Gestor de Sincronización | Dashboard Admin (Alertas) |
-| US-0Z (Cierre de Mes) | REF-01, REF-07 | Worker Asíncrono | Reportes (Vista Asíncrona) |
+| :--- | :--- | :--- | :--- |
+| US-11 (Venta en Modo Offline) | REF-02 (Disponibilidad) | Ventas (Smart Client) | Mockup POS (Indicador de red) |
+| US-12 (Sincronización Automática) | REF-11 (Nuevo - Consistencia) | Gestor de Sincronización | Mockup POS (Contador transacciones) |
+| US-13 (Resolución de Conflictos) | REF-11 (Nuevo - Consistencia) | Gestor de Sincronización | Nuevo Mockup - Dashboard Administrador |
+| US-14 (Procesamiento Cierre Mensual) | REF-01 (Rendimiento), REF-07 | Worker Asíncrono / Reportes | Mockup Reportes (Vista Asíncrona) |
+| US-15 (Optimización de Respuesta) | REF-01 (Rendimiento) | Ventas (Smart Client) | Mockup POS (Caja) |
 
 ## 10. Justificación global y trade-offs
 
