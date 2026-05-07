@@ -1,0 +1,25 @@
+{
+  "name": "codigo-del-software",
+  "version": "1.0.0",
+  "description": "**Problemática:** Nuestro proyecto se enfoca en la gestión de inventario de una empresa ficticia Sterling & Co. El objetivo principal es implementar una base de datos que permita la trazabilidad de productos, el control de stock mediante niveles mínimos, la generación de alertas automáticas cuando se alcancen niveles críticos de inventario y el registro contable de las ventas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zenyth-Team/Historias-de-usuario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Zenyth-Team/Historias-de-usuario/issues"
+  },
+  "homepage": "https://github.com/Zenyth-Team/Historias-de-usuario#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "express": "^5.2.1"
+  }
+}
