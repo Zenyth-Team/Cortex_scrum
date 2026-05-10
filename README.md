@@ -51,7 +51,7 @@ El sistema gestiona la persistencia de datos mediante las siguientes entidades p
 * **Proveedor:** ID, nombre_empresa, contacto, categoría_productos.
 
 ## Mockups
-A continuación se presentan los prototipos de baja fidelidad del sistema.  
+A continuación se presentan los prototipos de baja fidelidad del sistema:
 Enlace a Figma: https://carry-pack-20330348.figma.site/
 
 | Mockup / Pantalla | Historia de usuario relacionada |
