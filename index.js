@@ -26,3 +26,25 @@ app.put('/secciones/:id', (req, res) => {
   }
   res.json({ id, nombre_seccion, descripcion_de_ubicacion });
 });
+
+// GET /secciones/:id - Obtener una sección específica por ID
+app.get('/secciones/:id', (req, res) => {
+  const { id } = req.params;
+  const seccion = db.prepare('SELECT * FROM secciones WHERE id = ?').get(id);
+  
+  if (!seccion) {
+    return res.status(404).json({ error: 'Sección no encontrada' });
+  }
+  res.json(seccion);
+});
+
+// DELETE /secciones/:id - Eliminar una sección
+app.delete('/secciones/:id', (req, res) => {
+  const { id } = req.params;
+  const result = db.prepare('DELETE FROM secciones WHERE id = ?').run(id);
+  
+  if (result.changes === 0) {
+    return res.status(404).json({ error: 'Sección no encontrada' });
+  }
+  res.json({ message: 'Sección eliminada correctamente' });
+});
