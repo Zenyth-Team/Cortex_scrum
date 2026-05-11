@@ -48,3 +48,7 @@ app.delete('/secciones/:id', (req, res) => {
   }
   res.json({ message: 'Sección eliminada correctamente' });
 });
+
+app.listen(3000, () => {
+  console.log('API corriendo en http://localhost:3000');
+});
