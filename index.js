@@ -30,11 +30,11 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 /**
  * @swagger
  * /secciones:
- * get:
- * summary: Obtener todas las secciones
- * responses:
- * 200:
- * description: Lista de las secciones de la ferretería
+ *   get:
+ *    summary: Obtener todas las secciones
+ *    responses:
+ *      200:
+ *        description: Lista de las secciones de la ferretería
  */
 app.get('/secciones', (req, res) => {
   const secciones = db.prepare('SELECT * FROM secciones').all();
@@ -44,22 +44,22 @@ app.get('/secciones', (req, res) => {
 /**
  * @swagger
  * /secciones:
- * post:
- * summary: Crear una nueva sección
- * requestBody:
- * required: true
- * content:
- * application/json:
- * schema:
- * type: object
- * properties:
- * nombre_seccion:
- * type: string
- * descripcion_de_ubicacion:
- * type: string
- * responses:
- * 201:
- * description: Sección creada exitosamente
+ *   post:
+ *    summary: Crear una nueva sección
+ *    requestBody:
+ *      required: true
+ *      content:
+ *        application/json:
+ *          schema:
+ *            type: object
+ *            properties:
+ *              nombre_seccion:
+ *                type: string
+ *              descripcion_de_ubicacion:
+ *                type: string
+ *    responses:
+ *      201:
+ *        description: Sección creada exitosamente
  */
 app.post('/secciones', (req, res) => {
   const { nombre_seccion, descripcion_de_ubicacion } = req.body;
@@ -70,30 +70,30 @@ app.post('/secciones', (req, res) => {
 /**
  * @swagger
  * /secciones/{id}:
- * put:
- * summary: Actualizar una sección existente
- * parameters:
- * - in: path
- * name: id
- * required: true
- * schema:
- * type: integer
- * requestBody:
- * required: true
- * content:
- * application/json:
- * schema:
- * type: object
- * properties:
- * nombre_seccion:
- * type: string
- * descripcion_de_ubicacion:
- * type: string
- * responses:
- * 200:
- * description: Sección actualizada
- * 404:
- * description: Sección no encontrada
+ *   put:
+ *    summary: Actualizar una sección existente
+ *    parameters:
+ *      - in: path
+ *        name: id
+ *        required: true
+ *        schema:
+ *          type: integer
+ *    requestBody:
+ *      required: true
+ *      content:
+ *        application/json:
+ *          schema:
+ *            type: object
+ *            properties:
+ *              nombre_seccion:
+ *                type: string
+ *              descripcion_de_ubicacion:
+ *                type: string
+ *    responses:
+ *      200:
+ *        description: Sección actualizada
+ *      404:
+ *        description: Sección no encontrada
  */
 app.put('/secciones/:id', (req, res) => {
   const { id } = req.params;
@@ -108,19 +108,19 @@ app.put('/secciones/:id', (req, res) => {
 /**
  * @swagger
  * /secciones/{id}:
- * get:
- * summary: Obtener una sección específica por ID
- * parameters:
- * - in: path
- * name: id
- * required: true
- * schema:
- * type: integer
- * responses:
- * 200:
- * description: Datos de la sección solicitada
- * 404:
- * description: Sección no encontrada
+ *   get:
+ *    summary: Obtener una sección específica por ID
+ *    parameters:
+ *      - in: path
+ *        name: id
+ *        required: true
+ *        schema:
+ *          type: integer
+ *    responses:
+ *      200:
+ *        description: Datos de la sección solicitada
+ *      404:
+ *        description: Sección no encontrada
  */
 app.get('/secciones/:id', (req, res) => {
   const { id } = req.params;
@@ -135,19 +135,19 @@ app.get('/secciones/:id', (req, res) => {
 /**
  * @swagger
  * /secciones/{id}:
- * delete:
- * summary: Eliminar una sección
- * parameters:
- * - in: path
- * name: id
- * required: true
- * schema:
- * type: integer
- * responses:
- * 200:
- * description: Sección eliminada correctamente
- * 404:
- * description: Sección no encontrada
+ *   delete:
+ *    summary: Eliminar una sección
+ *    parameters:
+ *      - in: path
+ *        name: id
+ *        required: true
+ *        schema:
+ *          type: integer
+ *    responses:
+ *      200:
+ *        description: Sección eliminada correctamente
+ *      404:
+ *        description: Sección no encontrada
  */
 app.delete('/secciones/:id', (req, res) => {
   const { id } = req.params;
