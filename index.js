@@ -16,7 +16,11 @@ const swaggerSpec = swaggerJsdoc({
       title: 'API Inventario Ferretería', 
       version: '1.0.0',
       description: 'API para gestionar el inventario y las secciones de la ferretería' 
-    }
+    },
+    servers: [
+      { url: 'http://localhost:3000', description: 'Local' },
+      { url: 'https://cursos-api-krbv.onrender.com/', description: 'Production' }
+    ]
   },
   apis: ['./index.js']
 });
